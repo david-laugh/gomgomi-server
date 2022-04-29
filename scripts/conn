@@ -1,0 +1,7 @@
+docker run -it --rm \
+    --name gomgomi \
+    -v /$(pwd):/app \
+    --privileged \
+    -p 5555:5555 \
+    gomgomi:latest \
+    bash
