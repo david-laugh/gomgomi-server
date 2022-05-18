@@ -1,5 +1,5 @@
 cd gomgomi_chatbot_serving
-conda create -n "gomgomi" python=3.8
+conda create -n "gomgomi" python=3.8 -y
 conda activate gomgomi
 pip install -r requirements.txt
 conda install -y pytorch torchvision -c pytorch

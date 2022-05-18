@@ -18,5 +18,6 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc
 
 EXPOSE 5555
+EXPOSE 8888
 
 WORKDIR /app
